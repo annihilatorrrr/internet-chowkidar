@@ -19,11 +19,16 @@ git clone https://github.com/gnulinuxindia/internet-chowkidar.git
 
 2. Run code generation
 ```bash
-sqlc generate
-go generate ./...
+make gen
 ```
 
 3. Run the application
 ```bash
 go run main.go
+```
+
+Alternatively, you can build the application and run it
+```bash
+make build
+./inetchkdr
 ```
