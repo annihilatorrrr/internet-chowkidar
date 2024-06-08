@@ -19,6 +19,7 @@ git clone https://github.com/gnulinuxindia/internet-chowkidar.git
 
 2. Run code generation
 ```bash
+sqlc generate
 go generate ./...
 ```
 
